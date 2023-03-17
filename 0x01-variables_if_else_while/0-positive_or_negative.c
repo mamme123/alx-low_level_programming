@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * Description: Positive anything is better than negative nothing
  * main: determines if a number is negative, positive or zero
  * Return: always 0 (success)
  */
@@ -24,4 +25,3 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-}
